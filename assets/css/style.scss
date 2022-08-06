@@ -1,0 +1,149 @@
+// mainSlider
+#mainSlider {
+    background-color: #e9e8e6;
+
+    @media (min-width:768px) {
+        border-bottom-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+
+    .owl-carousel {
+
+
+        .owl-nav {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translate(0, -50%);
+
+            .owl-prev,
+            .owl-next {
+                position: absolute;
+                // height: 100px;
+                color: inherit;
+                background: none;
+                border: none;
+                z-index: 100;
+
+                i {
+                    font-size: 2.5rem;
+                    color: #cecece;
+                }
+
+                @media (max-width:768px) {
+                    display: none;
+                }
+            }
+
+            .owl-prev {
+                left: 30px;
+            }
+
+            .owl-next {
+                right: 30px;
+            }
+        }
+
+        .owl-dots {
+            padding-bottom: 2rem;
+        }
+
+    }
+
+    .slide-one {
+        background-color: #e9e8e6;
+        // min-height: 600px;
+    }
+
+    .slide-text {
+        h2 {
+            font-weight: bold;
+        }
+
+        p {
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+// mainSlider
+
+
+#GrowOrganic {
+    .text-style {
+        h2 {
+            border-bottom: 1px solid #E5E5E5;
+            padding-bottom: 8px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}
+
+#OurGranulated {
+    background-color: #E9FFEA;
+
+    .text-style {
+        h2 {
+            border-bottom: 1px solid #E5E5E5;
+            padding-bottom: 8px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}
+
+#footer {
+    .widget-menu {
+        .list-group {
+            a {
+                color: #000;
+                text-decoration: none;
+
+                &:hover {
+                    color: #bb2d3b;
+                }
+            }
+        }
+    }
+
+    .footer-logo {
+        img {
+            width: 25%;
+        }
+    }
+}
+
+
+#PageHeading {
+
+    @media (min-width:768px) {
+        border-bottom-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+}
+
+#RequestConsultation {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+    .request-consultation {
+        @media (max-width:992px) {
+            background-color: rgba(0, 0, 0, 0.344);
+        }
+    }
+
+    .content {
+        @media (min-width:992px) {
+            background-color: rgba(0, 0, 0, 0.344);
+        }
+    }
+}
